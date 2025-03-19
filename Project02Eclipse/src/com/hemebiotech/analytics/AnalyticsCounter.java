@@ -14,9 +14,7 @@ import java.util.TreeMap;
  */
 public class AnalyticsCounter {
     
-    // Reader interface for getting symptom data from source
     private final ISymptomReader reader;
-    // Writer interface for outputting processed symptom data
     private final ISymptomWriter writer;
     
     /**
